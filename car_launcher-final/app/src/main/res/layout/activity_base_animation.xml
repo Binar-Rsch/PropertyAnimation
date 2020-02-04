@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_from">
+
+  <ImageView
+      android:id="@+id/line"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal|bottom"
+      android:background="@android:color/transparent"
+      android:src="@drawable/line" />
+
+  <ImageView
+      android:id="@+id/car"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:background="@android:color/transparent"
+      android:layout_gravity="bottom|center_horizontal"
+      android:src="@drawable/car"/>
+
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:layout_gravity="bottom|center_horizontal"
+      android:layout_marginBottom="53dp"
+      android:background="@android:color/transparent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/binar" />
+
+</FrameLayout>
