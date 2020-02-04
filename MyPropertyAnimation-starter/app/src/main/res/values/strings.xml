@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">Car Launcher</string>
+  <string name="title_no_animation">No animation</string>
+  <string name="title_launch_car">Launch a car</string>
+  <string name="title_spin_car">Spin a car</string>
+  <string name="title_accelerate_car">Accelerate a car</string>
+  <string name="title_launch_car_objectanimator">Launch a car (ObjectAnimator)</string>
+  <string name="launch_spin">Launch and spin (AnimatorSet)</string>
+  <string name="launch_spin_viewpropertyanimator">Launch and spin (ViewPropertyAnimator)</string>
+  <string name="title_with_logo">Don\'t leave Logo behind (Animating two objects)</string>
+  <string name="title_animation_events">Animation events (with listener)</string>
+  <string name="title_there_and_back">Fly there and back (Animation options)</string>
+  <string name="title_jump_and_blink">Jump and blink (Animations in XML)</string>
+  <string name="title_color_animation">Background color</string>
+</resources>
