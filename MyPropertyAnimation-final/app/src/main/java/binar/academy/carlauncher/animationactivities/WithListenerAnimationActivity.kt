@@ -16,12 +16,12 @@ class WithListenerAnimationActivity : BaseAnimationActivity() {
 
     animator.addListener(object : Animator.AnimatorListener {
       override fun onAnimationStart(animation: Animator) {
-        Toast.makeText(applicationContext, "Logo took off", Toast.LENGTH_SHORT)
+        Toast.makeText(applicationContext, "Logo meluncur", Toast.LENGTH_SHORT)
                 .show()
       }
 
       override fun onAnimationEnd(animation: Animator) {
-        Toast.makeText(applicationContext, "Logo is on the moon", Toast.LENGTH_SHORT)
+        Toast.makeText(applicationContext, "Logo sudah tiba di pit stop", Toast.LENGTH_SHORT)
                 .show()
         finish()
       }
