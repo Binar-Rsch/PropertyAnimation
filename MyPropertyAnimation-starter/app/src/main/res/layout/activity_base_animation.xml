@@ -9,7 +9,7 @@
         android:id="@+id/line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom"
+        android:layout_gravity="bottom|center_horizontal"
         android:background="@android:color/transparent"
         android:src="@drawable/line" />
 
