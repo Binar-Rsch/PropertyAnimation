@@ -14,13 +14,15 @@ abstract class BaseAnimationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_base_animation)
 
         car = findViewById(R.id.car)
         logo = findViewById(R.id.logo)
         frameLayout = findViewById(R.id.container)
-        frameLayout.setOnClickListener { onStartAnimation() }
+
+        frameLayout.setOnClickListener {
+            onStartAnimation()
+        }
     }
 
     override fun onResume() {
